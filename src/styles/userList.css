@@ -1,0 +1,17 @@
+/* components/UserList.css */
+
+.user-list {
+    padding: 20px;
+  }
+  
+  .user-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .user-card h3 {
+    margin-top: 0;
+  }
+  
