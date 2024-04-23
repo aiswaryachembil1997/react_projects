@@ -1,17 +1,42 @@
 /* components/UserList.css */
 
-.user-list {
-    padding: 20px;
+   .user-list {
+    margin: auto;
   }
   
   .user-card {
     border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-width: 45%;
   }
   
   .user-card h3 {
     margin-top: 0;
+    color: #333;
   }
   
+  .user-card p {
+    margin: 8px 0;
+    color: #666;
+  }
+  
+  .user-card strong {
+    font-weight: bold;
+    color: #333;
+  }
+  .id-style{
+    width: 33px;
+    text-align: center;
+    border-radius: 30px;
+    background: linear-gradient(to right, lightblue, lightgreen);
+    margin-top: 2px;
+  }
+  .user-list .users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }

@@ -1,1 +1,6 @@
 @import './userList.css';
+.background-color {
+    background: linear-gradient(to right, lightblue, lightgreen);
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
